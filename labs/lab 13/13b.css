@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(65, 65, 65);
+}
+.main{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.a{
+    color: white;
+    background-color:black;
+    float: left;
+    height:80px;
+    font-size:x-large;
+    font-family:cursive;
+}
+.b{
+    background-color:black;
+    color: white;
+    margin-top: 30px;
+    margin-right: 10px;
+    float: right;
+}
+select{
+    color: white;
+    border: none;
+    float: right;
+    background-color: black;
+}
+button{
+    background-color:rgb(87, 126, 199);
+    color: white;
+    height: 40px;
+    width: 11%;
+    border-radius: 20px;
+    float: right;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.c{
+    width:fit-content;
+    color: white;
+    font-family:cursive;
+    font-size: 50px;
+    position: relative;
+    top: -120px;
+    left: 1160px;
+}
+.img1{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    margin-left: 80px;
+    float: left;
+    position: relative;
+    top: -3.5px;
+}
+.img2{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    margin-left: 51px;
+    float: left;
+    position: relative;
+    top: -3.5px;
+}
+.img3{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    margin-left: 51px;
+    float: left;
+    position: relative;
+    top: -3.5px;
+}
+.img4{
+    background-color: white;
+    height: 200px;
+    width: 20%;
+    margin-left: 51px;
+    float: left;
+    position: relative;
+    top: -3.5px;
+}
+h2{
+    margin-left: 10px;
+    font-family: cursive; 
+    position: relative;
+    top: -15px;
+}
+pre{
+    margin-left: 10px; 
+    position: relative;
+    top: -30px;
+}
+.seemore{
+    background-color:rgb(132, 175, 255);
+    color: white;
+    padding: 7px;
+    height: 35px;
+    width: 45%;
+    margin-left: 80px;
+    border-radius: 20px;
+    text-align: center;
+}

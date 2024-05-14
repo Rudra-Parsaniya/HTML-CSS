@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            .page{
+                background-color: aqua;
+                width: 100%;
+                padding: 7;
+            }
+            .header{
+                background-color: rgb(192, 43, 226);
+                height: 7%;
+                color: white;
+            }
+            .content{
+                background-color: rgb(223, 166, 43);
+                padding: 7;
+                height: 30%;
+            }
+           .ent{
+                background-color: black;
+                color: white;
+                width: 60%;
+                margin: 2%;
+            }
+            .sidebar{
+                background-color: black;
+                color: white;
+                width: 30%;
+                height: 50%;
+                float: right;
+                position: relative;bottom: 125px;
+                
+            }
+            .footer{
+                background-color: blue;
+                color: white;
+            }
+            @media (min-width:500px) and (max-width:1025px){
+                .page{
+                    height: 100%;
+                
+                }
+                .content{
+                    height: 90%;
+                }
+                .ent{
+                    width: 95%;
+                    height: 2%;
+                    float: left;
+                }
+                .sidebar{
+                    width: 95%;
+                    float: left;
+                    margin: 15%;
+                    margin-left: 1.8%;
+
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="page">Page
+            <div class="header">Header</div>
+            <div class="content">Content
+                
+                <div class="ent">Entry</div>
+                <div class="ent">Entry</div>
+                <div class="ent">Entry</div>
+                
+                    
+                <div class="sidebar">Sidebar</div>
+                   
+            </div>
+            <div class="footer">&copy; Darshan University</div>
+        </div>
+    </body>
+</html>

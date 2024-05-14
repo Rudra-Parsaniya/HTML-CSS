@@ -1,0 +1,51 @@
+.main{
+    background-color: dimgrey;
+    height: 150px;
+    width: 100%;
+}
+.header{
+    color: white;
+    float: right;
+    margin: 20px;
+}
+.main2{
+    height: 125px;
+    width: 100%;
+}
+.a{
+    width: 70%;
+    float: right;
+}
+button{
+    background-color: skyblue;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 80px;
+    left: 240px;
+    border-radius: 20px;
+}
+.main3{
+    height: 500px;
+    width: 100%;
+}
+.b{
+    width: 70%;
+    height: 400px;
+    float: left;
+}
+.c{
+    width: 30%;
+    height: 400px;
+    float: left;
+}
+.c1{
+    height: 400px;
+    width: 40%;
+    float: left;
+}
+.c2{
+    height: 400px;
+    width: 60%;
+    float: right;
+}
